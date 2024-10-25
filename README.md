@@ -44,5 +44,5 @@ $user = User::find(1);
 $balances = $user->decreaseMoney(float $amount, ?string $title = null, array $context = [])
 ```
 `$amount` - сумма \
-`$title` - Тут можно указать статью дохода текстом. \
+`$title` - Тут можно указать статью расхода текстом. \
 `$context` - Тут массив даннх для контекста операции
